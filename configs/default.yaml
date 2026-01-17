@@ -1,0 +1,24 @@
+seed: 42
+
+model:
+  hidden_units: [256, 128]
+  dropout: 0.4
+
+training:
+  batch_size: 128
+  epochs: 60
+  learning_rate: 0.0005
+  validation_split: 0.2
+
+callbacks:
+  early_stopping:
+    monitor: val_loss
+    patience: 8
+  checkpoint:
+    save_best_only: true
+
+paths:
+  experiments_dir: experiments
+  model_subdir: checkpoints
+  preproc_name: preproc.joblib
+  config_copy_name: config_used.yaml
