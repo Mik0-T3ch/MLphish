@@ -3,14 +3,14 @@
 </p>
 
 <p align="center">
-Machine Learning model for detecting phishing websites
+Sistema de detección de sitios phishing utilizando Machine Learning
 </p>
 
 <p align="center">
 
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
 <img src="https://img.shields.io/badge/Machine%20Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white">
-<img src="https://img.shields.io/badge/Cybersecurity-000000?style=for-the-badge&logo=hackthebox&logoColor=green">
+<img src="https://img.shields.io/badge/Ciberseguridad-000000?style=for-the-badge&logo=hackthebox&logoColor=green">
 <img src="https://img.shields.io/github/stars/Mik0-T3ch/MLphish?style=for-the-badge">
 <img src="https://img.shields.io/github/forks/Mik0-T3ch/MLphish?style=for-the-badge">
 <img src="https://img.shields.io/github/issues/Mik0-T3ch/MLphish?style=for-the-badge">
@@ -19,22 +19,22 @@ Machine Learning model for detecting phishing websites
 
 ---
 
-# 📌 About
+# 📌 Descripción
 
-**MLphish** is a machine learning project focused on detecting phishing websites by analyzing URL patterns and extracted features.
+**MLphish** es un proyecto enfocado en **la detección de sitios web de phishing utilizando técnicas de Machine Learning**.
 
-Phishing attacks are one of the most common cybersecurity threats. This project demonstrates how **machine learning models can help automate the detection of malicious websites**.
+El objetivo del proyecto es demostrar cómo los modelos de aprendizaje automático pueden ayudar a **identificar automáticamente páginas maliciosas**, analizando características extraídas de URLs y otros patrones utilizados comúnmente en ataques de phishing.
 
-This repository combines concepts from:
+Este proyecto combina conocimientos de:
 
-- Machine Learning
-- Cybersecurity
-- Data Analysis
-- Phishing Detection
+* Machine Learning
+* Ciberseguridad
+* Análisis de datos
+* Detección de phishing
 
 ---
 
-# ⚙️ Tech Stack
+# ⚙️ Tecnologías Utilizadas
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -42,21 +42,29 @@ This repository combines concepts from:
   </a>
 </p>
 
----
+Tecnologías principales utilizadas en el proyecto:
 
-# 🚀 Features
-
-✔ Machine learning phishing detection  
-✔ URL feature extraction  
-✔ Dataset preprocessing  
-✔ Model training and evaluation  
-✔ Modular code structure  
+* **Python**
+* **Scikit-learn**
+* **Git**
+* **GitHub**
+* **Visual Studio Code**
 
 ---
 
-# 📂 Project Structure
+# 🚀 Características
 
-```
+✔ Detección automática de sitios phishing
+✔ Extracción de características de URLs
+✔ Preprocesamiento de datasets
+✔ Entrenamiento y evaluación de modelos
+✔ Estructura modular para facilitar experimentación
+
+---
+
+# 📂 Estructura del Proyecto
+
+```id="projstruct"
 MLphish
 │
 ├── dataset
@@ -73,66 +81,69 @@ MLphish
 
 ---
 
-# 🧠 How It Works
+# 🧠 Cómo Funciona
 
-1. Extract relevant features from URLs  
-2. Clean and preprocess the dataset  
-3. Train the machine learning model  
-4. Predict whether a website is phishing or legitimate  
+1. Se extraen características relevantes de URLs.
+2. Se limpia y procesa el dataset.
+3. Se entrena un modelo de Machine Learning.
+4. El modelo predice si un sitio es **phishing o legítimo**.
 
 ---
 
-# 🛠 Installation
+# 🛠 Instalación
 
-Clone the repository
+Clonar el repositorio
 
-```bash
+```bash id="clonecmd"
 git clone https://github.com/Mik0-T3ch/MLphish.git
 cd MLphish
 ```
 
-Install dependencies
+Instalar dependencias
 
-```bash
+```bash id="pipcmd"
 pip install -r requirements.txt
 ```
 
 ---
 
-# ▶️ Usage
+# ▶️ Uso
 
-Train the model
+Entrenar el modelo
 
-```bash
+```bash id="traincmd"
 python train.py
 ```
 
-Run prediction
+Realizar predicción
 
-```bash
+```bash id="predictcmd"
 python predict.py
 ```
 
 ---
 
-# 📊 Future Improvements
+# 📊 Mejoras Futuras
 
-- Deep learning models
-- Larger phishing datasets
-- Web API deployment
-- Browser extension for phishing detection
-
----
-
-# ⚠️ Disclaimer
-
-This project is intended **only for educational and research purposes**.
+* Implementar modelos de Deep Learning
+* Mejorar la calidad del dataset
+* Desplegar el modelo como API
+* Crear una extensión de navegador para detectar phishing
 
 ---
 
-# 👨‍💻 Author
+# ⚠️ Aviso
 
-Christopher Jared Martínez Pino  
+Este proyecto fue creado **con fines educativos y de investigación**.
 
-GitHub  
+---
+
+# 👨‍💻 Autor
+
+**El gatito miau miau :3**
+
+Entusiasta de Machine Learning y Ciberseguridad
+
+GitHub
 https://github.com/Mik0-T3ch
+
